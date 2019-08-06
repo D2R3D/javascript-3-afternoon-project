@@ -11,25 +11,25 @@
   In the example below, we are accessing the property values. Uncomment the code below, run it and look at what prints in the console.
 */
 
-// var values = {
-//   one: 'These',
-//   two: ' are',
-//   three: ' the',
-//   four: ' property',
-//   five: ' values.'
-// } 
+var values = {
+  one: 'These',
+  two: ' are',
+  three: ' the',
+  four: ' property',
+  five: ' values.'
+} 
 
-// for(var key in values) {
-//   console.log(values[key])
-// }
+for( let key in values) {
+  console.log(values[key])
+}
 
 /*
   In this next example, we are accessing the property names themselves. Uncomment the code below, run it and look at what prints in the console.
 */
 
-// for(var key in values) {
-//   console.log(key)
-// }
+for(var key in values) {
+  console.log(key)
+}
 
 
 
@@ -39,10 +39,14 @@
   Inside the function showValues, write a for in loop that concatenates each of the property values and returns the concatenated string.
 */
 
-function showValues( obj ) {
-  //Code Here
+function showValues(values) {
+for (let key in Values) 
+  return values(key)
+  
+//   for (var key in showValues){
+   
+//     return showValues[key]
 }
-
 
 
 ////////// PROBLEM 2 //////////
@@ -53,8 +57,12 @@ function showValues( obj ) {
   Return the updated object.
 */
 
-//Code Here
-
+function greaterThan10 (obj){
+for(let i=0; i < greaterThan10.length; i++)
+if (greaterthan10[i] >= 10){
+  greaterthan10 = 0}
+  return greaterThan10()
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -65,7 +73,19 @@ function showValues( obj ) {
   Return the updated object.
 */
 
-//Code Here
+// let nums = (1,2,3,4,5)
+
+// let double = (obj) => {
+//   two: 2,
+//   twelve: 12,
+//   fity: 50,
+//   schfifty schvive: 55,
+// }
+
+//   for(let key in double){
+//   console.log(double)
+//   return obj *2;
+// }
 
 
 
@@ -130,7 +150,6 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
-
 
 
 ////////// PROBLEM 7 //////////

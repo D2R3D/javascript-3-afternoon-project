@@ -50,6 +50,15 @@ var employees = [
     3. Return the updated employee array.
 */
 
+function employeeUpdater () {
+  for (let i =0; i <employees.length; i++){
+    if (employees[i].firstName === Theo)
+    return employees[i].splice(1,1)
+      if (name === Lorie)
+      return employees.splice(3, 1, 'HR')
+  }
+}
+
 
 ////////// PROBLEM 2 //////////
 
@@ -65,9 +74,14 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     3. Return the updated array.
 */
 
+
+
 //Code Here
-
-
+function removeDuplicates() {
+  for (let i = 0; i < workplaceAccidents.length; i++)
+    for(let j = 0; j < workplaceAccidents.length; i++)
+    return workplaceAccidents
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -94,8 +108,8 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity = 'eat food'
+var fluffy2ndFriend = 'Lazy Bones'
 
 
 
@@ -136,7 +150,11 @@ var myCar = {
 */
 
 //Code Here
-
+// function recordCleaner( ){
+//   for (let i = 0; <myCar.atFaultForAccident.length; i++)
+// for(let j = 0; j <atFaultForAccident; i++)
+// return myCar.atFaultForAccident()
+// }
 
 
 ////////// PROBLEM 5 //////////
@@ -154,6 +172,10 @@ var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
     4. Return the modified numsArr.
 */
 
-//Code Here
+
+
+
+
+
 
 
